@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="sakura" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="sakura_spreads">
+                CREATE TABLE `sakura_spreads` (
+                  `id` tinyint(4) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(100) NOT NULL,
+                  `img` varchar(100) NOT NULL,
+                  `description` varchar(200) NOT NULL,
+                  `method` text NOT NULL,
+                  `cards` text NOT NULL,
+                  `cards_num` tinyint(4) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <database name="sakura">
+        <!-- Tabelle sakura_spreads -->
+        <table name="sakura_spreads">
+            <column name="id">1</column>
+            <column name="name">General</column>
+            <column name="img"></column>
+            <column name="description">When you want to do a reading for a more general question.</column>
+            <column name="method">Cut and shuffle the Clow Cards, making sure that they are lying pattern-side up 
+(the back). Count five cards from the top of the deck, and put the fifth card into &lt;strong&gt;position 1&lt;/strong&gt;. (Place the remaining 4 cards into a pile away from the reading area, so you don’t get them confused with other cards and/or accidentally put them back in the deck.)||Count another 5 cards from the remaining top of the deck and place the fifth card into &lt;strong&gt;position 2&lt;/strong&gt;. Repeat this step for &lt;strong&gt;positions 3-9&lt;/strong&gt;.||Take the card from the very bottom of the deck and place it into &lt;strong&gt;position 10&lt;/strong&gt;.</column>
+            <column name="cards">Subject of the matter||Cause of the matter||Past problems regarding the matter||Surrounding circumstances of the matter||Solution to the matter||Keyword of solving the matter||Obstacle when solving the matter||Future of the matter||Result of the matter||How others may see the matter</column>
+            <column name="cards_num">10</column>
+        </table>
+        <table name="sakura_spreads">
+            <column name="id">2</column>
+            <column name="name">Romance</column>
+            <column name="img"></column>
+            <column name="description">When love is on your mind</column>
+            <column name="method">Shuffle and cut the Clow Cards, making sure that they are lying pattern-side up 
+(the back). Take the first card from the top of the deck and put it into &lt;strong&gt;position 1&lt;/strong&gt;.||Count 10 cards from the top of the remaining deck of cards and place the 10th card into &lt;strong&gt;position 2&lt;/strong&gt;. Count another 10 cards from the top of the remaining deck and place the 10th card into &lt;strong&gt;position 3&lt;/strong&gt;. Continue doing this for &lt;strong&gt;positions 4-6&lt;/strong&gt;.||The last remaining card of the deck is placed in &lt;strong&gt;position 7&lt;/strong&gt;.</column>
+            <column name="cards">The liked/loved person's personality and true nature||The liked/loved person and the questioner's past situation||The liked/loved person and the questioner's present situation||The liked/loved person and the questioner's future||The problem the questioner must overcome in order to get along well with the liked/loved person||The result of the liked/loved person and the questioner's romance||Advice for a good relationship with the liked/loved person</column>
+            <column name="cards_num">7</column>
+        </table>
+        <table name="sakura_spreads">
+            <column name="id">3</column>
+            <column name="name">Daily</column>
+            <column name="img"></column>
+            <column name="description">When you want to do a quick reading at the beginning of the day.</column>
+            <column name="method">Shuffle and cut the Clow Cards, making sure that they are lying pattern-side up 
+(the back). Spread the cards out from left to right, making sure it is a straight line with a 1 card length (See Figure 1 above).||Let your eyes drift down the line of cards until you feel a flash of intuition pulling you toward a certain card (See Figure 2 above). The card you choose will show your fortune for the day. </column>
+            <column name="cards">Today's fortune</column>
+            <column name="cards_num">1</column>
+        </table>
+        <table name="sakura_spreads">
+            <column name="id">4</column>
+            <column name="name">Moon</column>
+            <column name="img"></column>
+            <column name="description">When you want to foretell various matters and problems other than love.</column>
+            <column name="method">Shuffle and cut the Clow Cards, making sure that they are lying pattern-side up 
+(the back). Count 7 cards from the top of the deck and place that 7th card into &lt;strong&gt;position 1&lt;/strong&gt;.||Count another 7 cards from the remainder of the deck and place that 7th card into &lt;strong&gt;position 2&lt;/strong&gt;. Continue doing this for &lt;strong&gt;positions 3-6&lt;/strong&gt; as well.||Take the card from the bottom of the remaining deck and place it into &lt;strong&gt;position 7&lt;/strong&gt;.</column>
+            <column name="cards">The problem||How you now influence the concerned person(s)||What kind of influence you have on surrounding people||The key and key person to solving the problem||The result if the problem is settled well||The result if the problem is not settled well||The solution to the problem</column>
+            <column name="cards_num">7</column>
+        </table>
+        <table name="sakura_spreads">
+            <column name="id">5</column>
+            <column name="name">Speed</column>
+            <column name="img"></column>
+            <column name="description">When you want to do a quick reading to discover the cause and the solution of a  problem.</column>
+            <column name="method">Shuffle and cut the Clow Cards, making sure that they are lying pattern-side up (the back). Count 13 cards from the top of the deck and place the 13th card into &lt;strong&gt;position 1&lt;/strong&gt;.||Count 13 more cards from the remaining deck and place the 13th card into &lt;strong&gt;position 2&lt;/strong&gt;.||Count another 13 cards from the deck, and place that 13th card into &lt;strong&gt;position 3&lt;/strong&gt;. Count another 13 cards from the the deck, and place that 13th card into &lt;strong&gt;position 4&lt;/strong&gt;.</column>
+            <column name="cards">The Cause||The Past Situation||The Current Situation||The Solution</column>
+            <column name="cards_num">4</column>
+        </table>
+        <table name="sakura_spreads">
+            <column name="id">6</column>
+            <column name="name">Sun</column>
+            <column name="img"></column>
+            <column name="description">For when you want to know more about your worries and etc. in detail.</column>
+            <column name="method">Shuffle and cut the Clow Cards, making sure that they are lying pattern-side up 
+(the back). Count six cards from the top of the deck and place that sixth card into 
+&lt;strong&gt;position 1&lt;/strong&gt;.||Count another six cards from the top of the deck, and place that sixth card into 
+&lt;strong&gt;position 2&lt;/strong&gt;. Continue repeating this method for &lt;/strong&gt;positions 3-8&lt;/strong&gt;.||Take the very last card in the deck and place it into &lt;strong&gt;position 9&lt;/strong&gt;.</column>
+            <column name="cards">What your personality seems to be perceived as by surrounding people||Your actual personality||Current problem||The current problem's solution||An obstacle that will hinder you while solving the current problem||The key and key person who will/can help when solving the current problem||Warning for when solving the current problem||Your situation after the current problem is solved||The matter that you should be careful about in the future</column>
+            <column name="cards_num">9</column>
+        </table>
+        <table name="sakura_spreads">
+            <column name="id">7</column>
+            <column name="name">Guest</column>
+            <column name="img"></column>
+            <column name="description">When you want to know what your guest thinks of themself.</column>
+            <column name="method">Shuffle and cut the Clow Cards, making sure that they are lying pattern-side up (the back). Spread the cards out from left to right, making sure it is a straight line with a 1 card length.||Have your guest pull any four cards from the line.</column>
+            <column name="cards">Compatibility with your guest||What your guest thinks of themself in reality||Method to get along well with your guest||A warning for you and your guest</column>
+            <column name="cards_num">4</column>
+        </table>
+        <table name="sakura_spreads">
+            <column name="id">8</column>
+            <column name="name">Compatibility</column>
+            <column name="img"></column>
+            <column name="description">When you want to see what your compatibility is with a specific person.</column>
+            <column name="method">Shuffle and cut the Clow Cards while imagining the name of the person you want to do the reading for. (If you are doing a reading for you and someone else, think of the other person. If you're doing a reading for another couple, think of the two of them.)||Gather the cards up so they are lying pattern-side up. Spread the cards out surface-side up in a 1 card-length line, going from left to right.||Now, the card-surface designs are classified into 4 different groups. When 2 cards of the same group are side-by-side, remove them. Repeat this procedure until there are no more cards to take away.||The fewer the cards that are left remaining, the better the compatibility!||The compatibility is based on the number of cards that are left remaining:&lt;br /&gt;&lt;br /&gt;&lt;center&gt;0-10 cards = considerably good compatibility&lt;br /&gt;11-20 cards = slightly good compatibility&lt;br /&gt;21-30 cards = normal compatibility&lt;br /&gt;31-40 cards = compatibility is slightly bad&lt;br /&gt;41-50 cards = compatibility is considerably bad&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Group Classifications&lt;/strong&gt;:&lt;br /&gt; 
+Red Group: &lt;br /&gt;
+&amp;#x300C;CLOUD&amp;#x300D; &amp;#x300C;CREATE&amp;#x300D; &amp;#x300C;DARK&amp;#x300D; &amp;#x300C;FIREY&amp;#x300D; &amp;#x300C;LIGHT&amp;#x300D; &amp;#x300C;MIST&amp;#x300D; &amp;#x300C;RAIN&amp;#x300D; &amp;#x300C;SNOW&amp;#x300D;   &lt;br /&gt; 
+&amp;#x300C;STORM&amp;#x300D; &amp;#x300C;THUNDER&amp;#x300D; &amp;#x300C;WATERY&amp;#x300D; &amp;#x300C;WAVE&amp;#x300D; &amp;#x300C;WINDY&amp;#x300D; &lt;br /&gt;  &lt;br /&gt; 
+Green Group:  &lt;br /&gt; 
+&amp;#x300C;BIG&amp;#x300D; &amp;#x300C;DREAM&amp;#x300D; &amp;#x300C;GLOW&amp;#x300D; &amp;#x300C;ILLUSION&amp;#x300D; &amp;#x300C;LITTLE&amp;#x300D; &amp;#x300C;MAZE&amp;#x300D; &amp;#x300C;POWER&amp;#x300D;   &lt;br /&gt; 
+&amp;#x300C;SILENT&amp;#x300D; &amp;#x300C;SONG&amp;#x300D; &amp;#x300C;SWEET&amp;#x300D; &amp;#x300C;TIME&amp;#x300D; &amp;#x300C;TWIN&amp;#x300D; &amp;#x300C;VOICE&amp;#x300D;  &lt;br /&gt;   &lt;br /&gt; 
+Blue Group:  &lt;br /&gt; 
+&amp;#x300C;CHANGE&amp;#x300D; &amp;#x300C;DASH&amp;#x300D; &amp;#x300C;ERASE&amp;#x300D; &amp;#x300C;FIGHT&amp;#x300D; &amp;#x300C;FLOAT&amp;#x300D; &amp;#x300C;FLY&amp;#x300D; &amp;#x300C;FREEZE&amp;#x300D;   &lt;br /&gt; 
+&amp;#x300C;JUMP&amp;#x300D; &amp;#x300C;MOVE&amp;#x300D; &amp;#x300C;RETURN&amp;#x300D; &amp;#x300C;SHOT&amp;#x300D; &amp;#x300C;SLEEP&amp;#x300D; &amp;#x300C;THROUGH&amp;#x300D;   &lt;br /&gt;  &lt;br /&gt; 
+Purple Group:  &lt;br /&gt; 
+&amp;#x300C;ARROW&amp;#x300D; &amp;#x300C;BUBBLES&amp;#x300D; &amp;#x300C;EARTHY&amp;#x300D; &amp;#x300C;FLOWER&amp;#x300D; &amp;#x300C;LIBRA&amp;#x300D; &amp;#x300C;LOCK&amp;#x300D; &amp;#x300C;LOOP&amp;#x300D;   &lt;br /&gt; 
+&amp;#x300C;MIRROR&amp;#x300D; &amp;#x300C;SAND&amp;#x300D; &amp;#x300C;SHADOW&amp;#x300D; &amp;#x300C;SHIELD&amp;#x300D; &amp;#x300C;SWORD&amp;#x300D; &amp;#x300C;WOOD&amp;#x300D;  &lt;br /&gt;  &lt;br /&gt;  &lt;br /&gt; 
+&lt;/center&gt;||In the case of remaining cards, the card mostly to the left in the line of cards will show the cause of deteriorating compatibility and the card mostly to the right in the line of cards will show a method for a good relationship.||If no cards are remaining,  that means best compatibility!</column>
+            <column name="cards">What deteriorates compatibility||Method for a good relationship</column>
+            <column name="cards_num">2</column>
+        </table>
+    </database>
+</pma_xml_export>

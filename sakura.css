@@ -1,0 +1,628 @@
+#header #titel {
+	left: auto;
+	position: absolute;
+	top: auto;
+}
+
+#header_menu, #header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header_menu {
+	width:  100%;
+	text-align: center;
+}
+
+div#cardlist div.card_show {
+	display: block;
+}
+div.hideall#cardlist div.card_hide {
+	display: none;
+}
+
+div.showall#cardlist div.card_hide {
+	display: block;
+}
+
+
+.card_img {
+	width: 59px; 
+	height: 136px; 
+	background: url('CCS-SakuraCards.png');
+	line-height: 136px;
+	color: transparent;
+}
+
+.position ul li {
+	list-style: none;
+}
+
+.card_hide {
+	width: 45%;
+	height: 200px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card_hide .title {
+	padding-right: 60px; width: 150px; float: right; text-align: left;
+}
+
+.card_hide .summary {
+	padding-right: 60px; width: 150px; float: right; text-align: left;
+}
+
+#spread {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: middle;
+	text-shadow: 1px 1px 3px #888;
+	color: rgba(0, 0, 0, 0.597656);
+	font-size: 40px;
+	/*min-height: 500px;*/
+	width: 400px;
+	transition: all 2s;
+}
+
+#spread .card_img {
+	position: absolute;
+	transition: all 2s;
+		left: -100px;
+		top: -10px;
+}
+
+
+/*#spead .card_img {
+}*/
+
+
+
+
+div.General#spread { 
+	width: 335px;
+	height: 428px;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card1{
+	top: 0px;
+	left: 138px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card2{
+	top: 292px;
+	left: 138px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card3{
+	top: 73px;
+	left: 69px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card4{
+	top: 73px;
+	left: 207px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card5{
+	top: 219px;
+	left: 69px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card6{
+	top: 219px;
+	left: 207px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card7{
+	top: 146px;
+	left: 0px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card8{
+	top: 146px;
+	left: 276px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card9{
+	top: 146px;
+	left: 138px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.General#spread #card10{
+	top: 292px;
+	left: 379px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+
+/*div.General#spread #card11, div.General#spread #card12, div.General#spread #card13, div.General#spread #card14, div.General#spread #card15, div.General#spread #card16, div.General#spread #card17, div.General#spread #card18, div.General#spread #card19, div.General#spread #card20, div.General#spread #card21, div.General#spread #card22, div.General#spread #card23, div.General#spread #card24, div.General#spread #card25, div.General#spread #card26, div.General#spread #card27, div.General#spread #card28, div.General#spread #card29, div.General#spread #card30, div.General#spread #card31, div.General#spread #card32, div.General#spread #card33, div.General#spread #card34, div.General#spread #card35, div.General#spread #card36, div.General#spread #card37, div.General#spread #card38, div.General#spread #card39, div.General#spread #card40, div.General#spread #card41, div.General#spread #card42, div.General#spread #card43, div.General#spread #card44, div.General#spread #card45, div.General#spread #card46, div.General#spread #card47, div.General#spread #card48, div.General#spread #card49, div.General#spread #card50, div.General#spread #card51, div.General#spread #card52 {
+	top: 0px;
+	left: 0px;
+}*/
+
+
+
+
+
+div.Romance#spread { 
+	width: 335px;
+	height: 428px;
+}
+
+div.Romance#spread div#card4 {
+	left: 0px;
+}
+div.Romance#spread div#card1, div.Romance#spread div#card6{
+	left: 138px;
+}
+div.Romance#spread div#card2{
+	left: 69px;
+}
+div.Romance#spread div#card5{
+	left: 207px;
+}
+div.Romance#spread div#card3{
+	left: 276px;
+}
+div.Romance#spread div#card7{
+	left: 379px;
+}
+div.Romance#spread div#card1{
+	top: 0px;
+}
+div.Romance#spread div#card4, div.Romance#spread div#card6, div.Romance#spread div#card3{
+	top: 146px;
+}
+
+div.Romance#spread div#card2, div.Romance#spread div#card5, div.Romance#spread div#card7{
+	top: 292px;
+}
+div.Romance#spread div#card1, div.Romance#spread div#card2, div.Romance#spread div#card3, div.Romance#spread div#card4, div.Romance#spread div#card5, div.Romance#spread div#card6, div.Romance#spread div#card7 {
+	display: block;
+	color:rgba(0,0,0,1);
+}
+/*div.Romance#spread div#card8, div.Romance#spread div#card9, div.Romance#spread div#card10, div.Romance#spread #card11, div.Romance#spread #card12, div.Romance#spread #card13, div.Romance#spread #card14, div.Romance#spread #card15, div.Romance#spread #card16, div.Romance#spread #card17, div.Romance#spread #card18, div.Romance#spread #card19, div.Romance#spread #card20, div.Romance#spread #card21, div.Romance#spread #card22, div.Romance#spread #card23, div.Romance#spread #card24, div.Romance#spread #card25, div.Romance#spread #card26, div.Romance#spread #card27, div.Romance#spread #card28, div.Romance#spread #card29, div.Romance#spread #card30, div.Romance#spread #card31, div.Romance#spread #card32, div.Romance#spread #card33, div.Romance#spread #card34, div.Romance#spread #card35, div.Romance#spread #card36, div.Romance#spread #card37, div.Romance#spread #card38, div.Romance#spread #card39, div.Romance#spread #card40, div.Romance#spread #card41, div.Romance#spread #card42, div.Romance#spread #card43, div.Romance#spread #card44, div.Romance#spread #card45, div.Romance#spread #card46, div.Romance#spread #card47, div.Romance#spread #card48, div.Romance#spread #card49, div.Romance#spread #card50, div.Romance#spread #card51, div.Romance#spread #card52 {
+	top: 0px;
+	left: 0px;
+}*/
+
+/*div.Daily#spread { 
+	width: 59px;
+	height: 136px;
+}
+div.Daily#spread #card1{
+	top: 0px;
+	left: 0px;
+	display: block;
+}*/
+/*div.Daily#spread div#card2, div.Daily#spread div#card3, div.Daily#spread div#card4, div.Daily#spread div#card5, div.Daily#spread div#card6, div.Daily#spread div#card7, div.Daily#spread div#card8, div.Daily#spread div#card9, div.Daily#spread div#card10{
+	top: 0px;
+	left: -69px;
+	display: none;
+}*/
+
+
+
+div.Moon#spread { 
+	width: 335px;
+	height: 428px;
+}
+
+div.Moon#spread #card5, div.Moon#spread #card6{
+	left: 0px;	
+}
+div.Moon#spread #card3, div.Moon#spread #card4{
+	left: 69px;	
+}
+div.Moon#spread #card1, div.Moon#spread #card2{
+	left: 138px;	
+}
+div.Moon#spread #card7{
+	left: 276px;
+}
+div.Moon#spread #card5{
+	top: 0px;
+}
+div.Moon#spread #card3{
+	top: 39px;
+}
+div.Moon#spread #card1{
+	top: 73px;
+}
+div.Moon#spread #card2{
+	top: 219px;
+}
+div.Moon#spread #card4{
+	top: 248px;
+}
+div.Moon#spread #card6, div.Moon#spread #card7{
+	top: 292px;
+}
+div.Moon#spread #card1, div.Moon#spread #card2, div.Moon#spread #card3, div.Moon#spread #card4, div.Moon#spread #card5, div.Moon#spread #card6, div.Moon#spread #card7{
+	display: block;
+	color:rgba(0,0,0,1);
+}
+/*div.Moon#spread div#card8, div.Moon#spread div#card9, div.Moon#spread div#card10, div.Moon#spread #card11, div.Moon#spread #card12, div.Moon#spread #card13, div.Moon#spread #card14, div.Moon#spread #card15, div.Moon#spread #card16, div.Moon#spread #card17, div.Moon#spread #card18, div.Moon#spread #card19, div.Moon#spread #card20, div.Moon#spread #card21, div.Moon#spread #card22, div.Moon#spread #card23, div.Moon#spread #card24, div.Moon#spread #card25, div.Moon#spread #card26, div.Moon#spread #card27, div.Moon#spread #card28, div.Moon#spread #card29, div.Moon#spread #card30, div.Moon#spread #card31, div.Moon#spread #card32, div.Moon#spread #card33, div.Moon#spread #card34, div.Moon#spread #card35, div.Moon#spread #card36, div.Moon#spread #card37, div.Moon#spread #card38, div.Moon#spread #card39, div.Moon#spread #card40, div.Moon#spread #card41, div.Moon#spread #card42, div.Moon#spread #card43, div.Moon#spread #card44, div.Moon#spread #card45, div.Moon#spread #card46, div.Moon#spread #card47, div.Moon#spread #card48, div.Moon#spread #card49, div.Moon#spread #card50, div.Moon#spread #card51, div.Moon#spread #card52 {
+	top: 0px;
+	left: -69px;
+}*/
+
+
+div.Speed#spread { 
+	width: 197px;
+	height: 282px;
+}
+div.Speed#spread #card2{
+	left: 0px;
+}
+div.Speed#spread #card4, div.Speed#spread #card1{
+	left: 69px;
+}
+div.Speed#spread #card3{
+	left: 138px;
+}
+div.Speed#spread #card4{
+	top: 0px;
+}
+div.Speed#spread #card2, div.Speed#spread #card1, div.Speed#spread #card3{
+	top: 146px;
+}
+div.Speed#spread #card1, div.Speed#spread #card2, div.Speed#spread #card3, div.Speed#spread #card4{
+	display: block;
+	color:rgba(0,0,0,1);
+}
+/*div.Speed#spread #card5, div.Speed#spread #card6, div.Speed#spread #card7, div.Speed#spread div#card8, div.Speed#spread div#card9, div.Speed#spread div#card10, div.Speed#spread #card11, div.Speed#spread #card12, div.Speed#spread #card13, div.Speed#spread #card14, div.Speed#spread #card15, div.Speed#spread #card16, div.Speed#spread #card17, div.Speed#spread #card18, div.Speed#spread #card19, div.Speed#spread #card20, div.Speed#spread #card21, div.Speed#spread #card22, div.Speed#spread #card23, div.Speed#spread #card24, div.Speed#spread #card25, div.Speed#spread #card26, div.Speed#spread #card27, div.Speed#spread #card28, div.Speed#spread #card29, div.Speed#spread #card30, div.Speed#spread #card31, div.Speed#spread #card32, div.Speed#spread #card33, div.Speed#spread #card34, div.Speed#spread #card35, div.Speed#spread #card36, div.Speed#spread #card37, div.Speed#spread #card38, div.Speed#spread #card39, div.Speed#spread #card40, div.Speed#spread #card41, div.Speed#spread #card42, div.Speed#spread #card43, div.Speed#spread #card44, div.Speed#spread #card45, div.Speed#spread #card46, div.Speed#spread #card47, div.Speed#spread #card48, div.Speed#spread #card49, div.Speed#spread #card50, div.Speed#spread #card51, div.Speed#spread #card52 {
+	top: 0px;
+	left: -69px;
+}*/
+
+
+
+div.Guest#spread { 
+	width: 266px;
+	height: 136px;
+}
+div.Guest#spread #card1 {
+	left: 0px;
+}
+div.Guest#spread #card2 {
+	left: 69px;
+}
+div.Guest#spread #card3 {
+	left: 138px;
+}
+div.Guest#spread #card4 {
+	left: 207px;
+}
+div.Guest#spread #card1, div.Guest#spread #card2, div.Guest#spread #card3, div.Guest#spread #card4{
+	top: 0px;
+}
+div.Guest#spread #card1, div.Guest#spread #card2, div.Guest#spread #card3, div.Guest#spread #card4{
+	display: block;
+	color:rgba(0,0,0,1);
+}
+/*div.Guest#spread #card5, div.Guest#spread #card6, div.Guest#spread #card7, div.Guest#spread div#card8, div.Guest#spread div#card9, div.Guest#spread div#card10, div.Guest#spread #card11, div.Guest#spread #card12, div.Guest#spread #card13, div.Guest#spread #card14, div.Guest#spread #card15, div.Guest#spread #card16, div.Guest#spread #card17, div.Guest#spread #card18, div.Guest#spread #card19, div.Guest#spread #card20, div.Guest#spread #card21, div.Guest#spread #card22, div.Guest#spread #card23, div.Guest#spread #card24, div.Guest#spread #card25, div.Guest#spread #card26, div.Guest#spread #card27, div.Guest#spread #card28, div.Guest#spread #card29, div.Guest#spread #card30, div.Guest#spread #card31, div.Guest#spread #card32, div.Guest#spread #card33, div.Guest#spread #card34, div.Guest#spread #card35, div.Guest#spread #card36, div.Guest#spread #card37, div.Guest#spread #card38, div.Guest#spread #card39, div.Guest#spread #card40, div.Guest#spread #card41, div.Guest#spread #card42, div.Guest#spread #card43, div.Guest#spread #card44, div.Guest#spread #card45, div.Guest#spread #card46, div.Guest#spread #card47, div.Guest#spread #card48, div.Guest#spread #card49, div.Guest#spread #card50, div.Guest#spread #card51, div.Guest#spread #card52{
+	top: 0px;
+	left: -69px;
+}*/
+
+
+
+
+
+.instructions div.Compatibility#spread { 
+	width: 404px;
+	height: 136px;
+}
+.instructions div.Compatibility#spread #card1, .instructions div.Compatibility#spread #card2, .instructions div.Compatibility#spread div#card3, .instructions div.Compatibility#spread div#card4, .instructions div.Compatibility#spread div#card5, .instructions div.Compatibility#spread div#card6{
+	top: 0px;
+	display: block;
+	color: transparent;
+	line-height: 0px;
+	color:rgba(0,0,0,1);
+	/*background-position: -626px -587px !important; */
+}
+.instructions div.Compatibility#spread #card1{
+	left: 0px;
+}
+.instructions div.Compatibility#spread #card2{
+	left: 69px;
+}
+.instructions div.Compatibility#spread #card3{
+	left: 138px;
+}
+.instructions div.Compatibility#spread #card4{
+	left: 207px;
+}
+.instructions div.Compatibility#spread #card5{
+	left: 276px;
+}
+.instructions div.Compatibility#spread #card6{
+	left: 345px;
+}
+/*.instructions div.Compatibility#spread div#card7, .instructions div.Compatibility#spread div#card8, .instructions div.Compatibility#spread div#card9, .instructions div.Compatibility#spread div#card10, div.Compatibility#spread #card11, div.Compatibility#spread #card12, div.Compatibility#spread #card13, div.Compatibility#spread #card14, div.Compatibility#spread #card15, div.Compatibility#spread #card16, div.Compatibility#spread #card17, div.Compatibility#spread #card18, div.Compatibility#spread #card19, div.Compatibility#spread #card20, div.Compatibility#spread #card21, div.Compatibility#spread #card22, div.Compatibility#spread #card23, div.Compatibility#spread #card24, div.Compatibility#spread #card25, div.Compatibility#spread #card26, div.Compatibility#spread #card27, div.Compatibility#spread #card28, div.Compatibility#spread #card29, div.Compatibility#spread #card30, div.Compatibility#spread #card31, div.Compatibility#spread #card32, div.Compatibility#spread #card33, div.Compatibility#spread #card34, div.Compatibility#spread #card35, div.Compatibility#spread #card36, div.Compatibility#spread #card37, div.Compatibility#spread #card38, div.Compatibility#spread #card39, div.Compatibility#spread #card40, div.Compatibility#spread #card41, div.Compatibility#spread #card42, div.Compatibility#spread #card43, div.Compatibility#spread #card44, div.Compatibility#spread #card45, div.Compatibility#spread #card46, div.Compatibility#spread #card47, div.Compatibility#spread #card48, div.Compatibility#spread #card49, div.Compatibility#spread #card50, div.Compatibility#spread #card51, div.Compatibility#spread #card52{
+	top: 0px;
+	left: -69px;
+}*/
+
+
+
+div.Daily#spread { 
+	width: 100%;
+	height: 136px;
+}
+div.Daily#spread .card_img{
+	top: 0px;
+	display: block;
+	color: transparent;
+	line-height: 0px;
+	position: absolute;
+	/*background-position: -626px -587px !important; */
+}
+div.Daily#spread #card52{
+left: 0px;
+}div.Daily#spread #card51{
+left: 14px;
+}div.Daily#spread #card50{
+left: 28px;
+}div.Daily#spread #card49{
+left: 42px;
+}div.Daily#spread #card48{
+left: 56px;
+}div.Daily#spread #card47{
+left: 70px;
+}div.Daily#spread #card46{
+left: 84px;
+}div.Daily#spread #card45{
+left: 98px;
+}div.Daily#spread #card44{
+left: 112px;
+}div.Daily#spread #card43{
+left: 126px;
+}div.Daily#spread #card42{
+left: 140px;
+}div.Daily#spread #card41{
+left: 154px;
+}div.Daily#spread #card40{
+left: 168px;
+}div.Daily#spread #card39{
+left: 182px;
+}div.Daily#spread #card38{
+left: 196px;
+}div.Daily#spread #card37{
+left: 210px;
+}div.Daily#spread #card36{
+left: 224px;
+}div.Daily#spread #card35{
+left: 238px;
+}div.Daily#spread #card34{
+left: 252px;
+}div.Daily#spread #card33{
+left: 266px;
+}div.Daily#spread #card32{
+left: 280px;
+}div.Daily#spread #card31{
+left: 294px;
+}div.Daily#spread #card30{
+left: 308px;
+}div.Daily#spread #card29{
+left: 322px;
+}div.Daily#spread #card28{
+left: 336px;
+}div.Daily#spread #card27{
+left: 350px;
+}div.Daily#spread #card26{
+left: 364px;
+}div.Daily#spread #card25{
+left: 378px;
+}div.Daily#spread #card24{
+left: 392px;
+}div.Daily#spread #card23{
+left: 406px;
+}div.Daily#spread #card22{
+left: 420px;
+}div.Daily#spread #card21{
+left: 434px;
+}div.Daily#spread #card20{
+left: 448px;
+}div.Daily#spread #card19{
+left: 462px;
+}div.Daily#spread #card18{
+left: 476px;
+}div.Daily#spread #card17{
+left: 490px;
+}div.Daily#spread #card16{
+left: 504px;
+}div.Daily#spread #card15{
+left: 518px;
+}div.Daily#spread #card14{
+left: 532px;
+}div.Daily#spread #card13{
+left: 546px;
+}div.Daily#spread #card12{
+left: 560px;
+}div.Daily#spread #card11{
+left: 574px;
+}div.Daily#spread #card10{
+left: 588px;
+}div.Daily#spread #card9{
+left: 602px;
+}div.Daily#spread #card8{
+left: 616px;
+}div.Daily#spread #card7{
+left: 630px;
+}div.Daily#spread #card6{
+left: 644px;
+}div.Daily#spread #card5{
+left: 658px;
+}div.Daily#spread #card4{
+left: 672px;
+}div.Daily#spread #card3{
+left: 686px;
+}div.Daily#spread #card2{
+left: 700px;
+}div.Daily#spread #card1{
+left: 714px;
+}
+
+
+
+
+
+div.Compatibility#spread { 
+	width: 128px;
+	height: 136px;
+}
+div.Compatibility#spread #card1{
+	top: 0px;
+	left: 0px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.Compatibility#spread #card2{
+	top: 0px;
+	left: 69px;
+	display: block;
+	color:rgba(0,0,0,1);
+}
+div.Compatibility#spread div#card3, div.Compatibility#spread div#card4, div.Compatibility#spread div#card5, div.Compatibility#spread div#card6, div.Compatibility#spread div#card7, div.Compatibility#spread div#card8, div.Compatibility#spread div#card9, div.Compatibility#spread div#card10{
+	top: 0px;
+	left: -69px;
+	display: none;
+}
+
+
+
+
+div.Sun#spread { 
+	width: 340px;
+	height: 426px;
+}
+div.Sun#spread #card1 {
+	top:  0px;
+}
+div.Sun#spread #card5, div.Sun#spread #card6 {
+	top:  43px;
+}
+div.Sun#spread #card3, div.Sun#spread #card4 {
+	top: 146px;
+}
+div.Sun#spread #card7, div.Sun#spread #card8 {
+	top: 249px;
+}
+div.Sun#spread #card2, div.Sun#spread #card9 {
+	top:  292px;
+}
+div.Sun#spread #card3 {
+	left:  0px;
+}
+div.Sun#spread #card5, div.Sun#spread #card7 {
+	left:  43px;
+}
+div.Sun#spread #card1, div.Sun#spread #card2{
+	left: 143px;
+}	
+div.Sun#spread #card6, div.Sun#spread #card8{
+	left: 243px;
+}	
+div.Sun#spread #card4{
+	left: 287px;
+}	
+div.Sun#spread #card9{
+	left: 419px;
+}	
+div.Sun#spread #card3 {
+	
+	     -moz-transform: rotate(90deg);  
+	       -o-transform: rotate(90deg);  
+	  -webkit-transform: rotate(90deg);  
+	      -ms-transform: rotate(90deg);  
+	          transform: rotate(90deg);  
+	             filter: progid:DXImageTransform.Microsoft.Matrix( 
+	                     M11=6.123233995736766e-17, M12=-1, M21=1, M22=6.123233995736766e-17, sizingMethod='auto expand');
+	               zoom: 1;
+	
+}
+div.Sun#spread #card4 {
+	
+	     -moz-transform: rotate(-90deg);  
+	       -o-transform: rotate(-90deg);  
+	  -webkit-transform: rotate(-90deg);  
+	      -ms-transform: rotate(-90deg);  
+	          transform: rotate(-90deg);  
+	             filter: progid:DXImageTransform.Microsoft.Matrix( 
+	                     M11=6.123233995736766e-17, M12=1, M21=-1, M22=6.123233995736766e-17, sizingMethod='auto expand');
+	               zoom: 1;
+	
+}
+div.Sun#spread #card6, div.Sun#spread #card7 {
+	
+	     -moz-transform: rotate(45deg);  
+	       -o-transform: rotate(45deg);  
+	  -webkit-transform: rotate(45deg);  
+	      -ms-transform: rotate(45deg);  
+	          transform: rotate(45deg);  
+	             filter: progid:DXImageTransform.Microsoft.Matrix( 
+	                     M11=0.7071067811865475, M12=-0.7071067811865476, M21=0.7071067811865476, M22=0.7071067811865475, sizingMethod='auto expand');
+	               zoom: 1;
+	
+}
+div.Sun#spread #card5, div.Sun#spread #card8{
+	
+	     -moz-transform: rotate(-45deg);  
+	       -o-transform: rotate(-45deg);  
+	  -webkit-transform: rotate(-45deg);  
+	      -ms-transform: rotate(-45deg);  
+	          transform: rotate(-45deg);  
+	             filter: progid:DXImageTransform.Microsoft.Matrix( 
+	                     M11=0.7071067811865475, M12=0.7071067811865476, M21=-0.7071067811865476, M22=0.7071067811865475, sizingMethod='auto expand');
+	               zoom: 1;
+	
+}
+div.Sun#spread #card1, div.Sun#spread div#card2, div.Sun#spread div#card3, div.Sun#spread div#card4, div.Sun#spread div#card5, div.Sun#spread div#card6, div.Sun#spread div#card7, div.Sun#spread div#card8, div.Sun#spread div#card9 {
+	display: block;
+	color:rgba(0,0,0,1);
+}
+/*div.Sun#spread div#card10, div.Sun#spread #card11, div.Sun#spread #card12, div.Sun#spread #card13, div.Sun#spread #card14, div.Sun#spread #card15, div.Sun#spread #card16, div.Sun#spread #card17, div.Sun#spread #card18, div.Sun#spread #card19, div.Sun#spread #card20, div.Sun#spread #card21, div.Sun#spread #card22, div.Sun#spread #card23, div.Sun#spread #card24, div.Sun#spread #card25, div.Sun#spread #card26, div.Sun#spread #card27, div.Sun#spread #card28, div.Sun#spread #card29, div.Sun#spread #card30, div.Sun#spread #card31, div.Sun#spread #card32, div.Sun#spread #card33, div.Sun#spread #card34, div.Sun#spread #card35, div.Sun#spread #card36, div.Sun#spread #card37, div.Sun#spread #card38, div.Sun#spread #card39, div.Sun#spread #card40, div.Sun#spread #card41, div.Sun#spread #card42, div.Sun#spread #card43, div.Sun#spread #card44, div.Sun#spread #card45, div.Sun#spread #card46, div.Sun#spread #card47, div.Sun#spread #card48, div.Sun#spread #card49, div.Sun#spread #card50, div.Sun#spread #card51, div.Sun#spread #card52{
+	top: 0px;
+	left: -69px;
+}*/
+
+
+
+.inverted {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.inverted span {
+	position:absolute;
+	margin-left:-10px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.meaning_hidden {
+	display: none;
+}
+.meaning {
+
+}

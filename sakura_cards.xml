@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="sakura" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="sakura_cards">
+                CREATE TABLE `sakura_cards` (
+                  `id` tinyint(4) NOT NULL,
+                  `name` varchar(100) NOT NULL,
+                  `img` varchar(20) NOT NULL,
+                  `group` enum('Red','Green','Blue','Purple') NOT NULL,
+                  `summary` varchar(200) NOT NULL,
+                  `message` text NOT NULL,
+                  `warning` text NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <database name="sakura">
+        <!-- Tabelle sakura_cards -->
+        <table name="sakura_cards">
+            <column name="id">1</column>
+            <column name="name">Light</column>
+            <column name="img">74,3</column>
+            <column name="group">Red</column>
+            <column name="summary">Lead everything yourself. Your prospect for the distant future.</column>
+            <column name="message">You attract the attention of everyone with your radiant spirit. No matter what you do, it will always go well, with a great amount of good luck. You will be able to improve your abilities in your area of specialty/study, and there’s a better chance of secret admirers declaring their love. </column>
+            <column name="warning">It is possible to obtain a bright future by doing your very best. Rush into action without fearing failure.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">2</column>
+            <column name="name">Dark</column>
+            <column name="img">143,3</column>
+            <column name="group">Red</column>
+            <column name="summary">As usual, let nature take its course.</column>
+            <column name="message">Your energy is low, so stop trying to make your schedule full to bursting with visits to/from friends/relatives/acquaintances and take a day off from socializing so you can rest. Even if you lead a fast-paced life, you still need to find the time to take a deep breath and relax.
+
+As you don't have a lot of energy, instead of trying to fit into your friends/company, leave some time for yourself to calm down. Even if you lead a very busy life, leave some time for yourself to take a deep breath and rest. </column>
+            <column name="warning">Haste makes waste. The truth is, you need to accept your situation and save your energy for the next step.
+
+Haste makes waste. Accept the current situation. Save your energy for the next big step. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">3</column>
+            <column name="name">Firey</column>
+            <column name="img">212,3</column>
+            <column name="group">Red</column>
+            <column name="summary">Strong beliefs. Overcoming obstacles.</column>
+            <column name="message">Full of life and energy. You will be able to get rid of any obstacle and overcome any crisis/difficulty. Even if you are on the verge to give up, this energy will support you all the way, and may help you reach your target. </column>
+            <column name="warning">Be careful not to be over-confident, as it may cause the people around you to dislike you or be angry with you.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">4</column>
+            <column name="name">Earthy</column>
+            <column name="img">281,3</column>
+            <column name="group">Purple</column>
+            <column name="summary">Source of life. Symbol of effort and acceptability. </column>
+            <column name="message">Now is the time to focus on the foundation. What is important are the basics, and to not forget to make an effort. There is no immediate effect, but the results will eventually bring about a big chance to become productive. 
+</column>
+            <column name="warning">Occasionally, a big heart can accept and stop everything. Nothing turns egocentric, and there is no expected growth. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">5</column>
+            <column name="name">Windy</column>
+            <column name="img">350,3</column>
+            <column name="group">Red</column>
+            <column name="summary">Hints of progress. Enrichment. Anticipation. </column>
+            <column name="message">A time of change and activity. The possibility of getting meaningful information is big. Observe the situation around you with caution more than you usually would. A decision is important at this time and place. 
+
+This is the time for you to change and move forward. You may receive significant information. Pay attention to your surroundings. Once you have set your target/goal, work towards it at once. 
+</column>
+            <column name="warning">If you have the urge to call someone names or to lash out at someone verbally, hold it back. If you don’t, both parties will go through a painful experience.
+
+Don't be a parrot( and repeat what others say). Be creative. Don't be capricious. Be mindful of what you say.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">6</column>
+            <column name="name">Watery</column>
+            <column name="img">419,3</column>
+            <column name="group">Red</column>
+            <column name="summary">Cooperation. The ability to open people’s minds. Unlock the energy in others.</column>
+            <column name="message">Everyone trusts you because you are such an understanding person. The ability to 
+govern things smoothly with friendliness and capability is very helpful for work. </column>
+            <column name="warning">Demonstrate great leadership–it will transform your environment into one of a gentle aura. Bring warmth and happiness to people around you; this way, you can lead to your full potential. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">7</column>
+            <column name="name">Time</column>
+            <column name="img">488,3</column>
+            <column name="group">Green</column>
+            <column name="summary">Every experience improves you. Independence. </column>
+            <column name="message">Our existence consists of continuously improving ourselves through our experiences–always progressing. It’s important to enjoy the moment to the best of your abilities.</column>
+            <column name="warning">An event always has a message attached. You’ll get better at timing if you try to stay aware of it.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">8</column>
+            <column name="name">Return</column>
+            <column name="img">557,3</column>
+            <column name="group">Blue</column>
+            <column name="summary">The revival of a loser. Never give up! </column>
+            <column name="message">You will settle your regrets and the problem that you ran away from. The person who has been labeled as shy will slowly recover. Your natural fortune improves with a good decision.</column>
+            <column name="warning">Though you cannot turn back time, you can still change the present and the future with your own power.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">9</column>
+            <column name="name">Shadow</column>
+            <column name="img">626,3</column>
+            <column name="group">Purple</column>
+            <column name="summary">The unknown. The reason and solution of the problem.</column>
+            <column name="message">In fact, the problem haunting you like a shadow is going to give you a message. Since it faces away from the front of the problem, the direction which should be followed probably will come into view. 
+</column>
+            <column name="warning">When you always avoid poor and unpleasant things, you’ll miss the turning point in the other side of the shadow.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">10</column>
+            <column name="name">Wood</column>
+            <column name="img">695,3</column>
+            <column name="group">Purple</column>
+            <column name="summary">Symbolizing individual growth and development.  </column>
+            <column name="message">Steady growth and/or development. Obtain trust in interpersonal relationships and 
+connect with deep bonds. Talent and bility shine in future months and there is a lot of admiration to receive. 
+</column>
+            <column name="warning">This is surely a favorable time to lose your original intentions, don’t. If you get too caught up in the moment, the things which you built with much effort will become spoiled.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">11</column>
+            <column name="name">Flower</column>
+            <column name="img">5,149</column>
+            <column name="group">Purple</column>
+            <column name="summary">Results. Rewards. The chance of accomplishing a goal is high. </column>
+            <column name="message">There's a chance that your current efforts will finally bloom and let you reach your goal. If you have self-confidence and positive feelings, all will open out towards the right direction. </column>
+            <column name="warning">Even if a small obstacle shows up, forget about it and don’t get angry. Progress can be made with a smile. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">12</column>
+            <column name="name">Mist</column>
+            <column name="img">74,149</column>
+            <column name="group">Red</column>
+            <column name="summary">Be clear of the situation, and decide which direction you will take. </column>
+            <column name="message">You are given the chance to reconsider what you want to do. You will not be able to fully analyze the problems as a result of your indecisiveness.</column>
+            <column name="warning">Be calm. If you think simply and with honest feelings, the mist/dust surrounding you will eventually turn into good weather.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">13</column>
+            <column name="name">Snow</column>
+            <column name="img">143,149</column>
+            <column name="group">Red</column>
+            <column name="summary">A new beginning/start. Peace. Purity. </column>
+            <column name="message">Change your attitude and create a new beginning. This is a very good time to start taking lessons/learning new things. You will also get to know good mentors. You may become lifelong friends with the people you meet in this time period. </column>
+            <column name="warning">Stop fussing about the past. Try changing your point-of-view and take an active part in the “new” world.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">14</column>
+            <column name="name">Sand</column>
+            <column name="img">212,149</column>
+            <column name="group">Purple</column>
+            <column name="summary">The challenge to change without fear.</column>
+            <column name="message">Time and a person’s feelings change constantly, yet they are always in existence so there is no single point of view. Reconciliation with the friend or the lover is sure to go well too, if it is taken one step at a time.</column>
+            <column name="warning">Do you not notice the person who thinks you are important? They are actually surprisingly closer then you realize.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">15</column>
+            <column name="name">Fight</column>
+            <column name="img">281,149</column>
+            <column name="group">Blue</column>
+            <column name="summary">An omen to the big turning point. </column>
+            <column name="message">You will be thanked for taking the lead without hesitating, and for going through a lot of trouble for people. Physical strength and willpower are enhanced, and a current misfortune can be fixed.</column>
+            <column name="warning">Don't build up on momentum, or you will make a stupid error in judgment. An elaborate preliminary investigation is necessary. Listening to the advice of an elder is plus. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">16</column>
+            <column name="name">Dream</column>
+            <column name="img">350,149</column>
+            <column name="group">Green</column>
+            <column name="summary">A chance to get to know oneself.</column>
+            <column name="message">You have a keen and strong sixth sense. You'll get important information from your dreams or intuition. It is important to have dreams(as in your goals or targets). Leave some space for yourself/in your heart. </column>
+            <column name="warning">Try calling or writing to friends that you haven't contacted for a long time. You may just understand yourself better in the process.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">17</column>
+            <column name="name">Silent</column>
+            <column name="img">419,149</column>
+            <column name="group">Green</column>
+            <column name="summary">Forethoughtfulness. A time for recharging.</column>
+            <column name="message">Even if your honesty seems to be quiet, everyone recognizes it. If you serve your role properly in life, good news may come unexpectedly. 
+</column>
+            <column name="warning">Even if every day seems to be repetitive, do not be driven to desperation. An 
+understanding person is always nearby.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">18</column>
+            <column name="name">Through</column>
+            <column name="img">488,149</column>
+            <column name="group">Blue</column>
+            <column name="summary">The improvement of an unexpected situation. </column>
+            <column name="message">The key to success is a change in perspective. When you change your way of life and thinking completely, it is very likely that your situation will improve for the better, and good luck will come your way. It is important to say &quot;Yes&quot; and &quot;No&quot; clearly.</column>
+            <column name="warning">Even if a strong rival appears, face each other without tricks, fairly. They might turn out to be an unexpected cooperator. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">19</column>
+            <column name="name">Erase</column>
+            <column name="img">557,149</column>
+            <column name="group">Blue</column>
+            <column name="summary">Stagnation of luck. A warning to wait.</column>
+            <column name="message">Are there any expenses that were planned out or did you just spend recklessly on desires? Even if a plan fails, continue making steady efforts and wait for the next chance. 
+</column>
+            <column name="warning">The successful person approaches you in time of need. Humans are resilient and equipped with profoundness. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">20</column>
+            <column name="name">Big</column>
+            <column name="img">626,149</column>
+            <column name="group">Green</column>
+            <column name="summary">Big possibility and ability. An increase of the thirst for knowledge. </column>
+            <column name="message">At this time, your desire to learn will be intense. There’s also a good chance for you to LEVEL UP– and improve every plan and possibility in the process. An unexpected accomplishment might take place involving an impossible (in your opinion) love/relationship or a dream/goal of yours. 
+</column>
+            <column name="warning">Join group activities and/or parties. You might get Significant hints and information about the future. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">21</column>
+            <column name="name">Little</column>
+            <column name="img">695,149</column>
+            <column name="group">Green</column>
+            <column name="summary">A small but meaningful transformation period. </column>
+            <column name="message">For every obstacle that makes you anxious and uneasy you will eventually find a way to calm yourself down and overcome it. You will be successful for a long time if you do your work little by little and keep that pace up. Accumulation is important.</column>
+            <column name="warning">If you doubt your own feelings or the feelings of the other party, it will weaken your own energy and cause you to lose something important.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">22</column>
+            <column name="name">Twin</column>
+            <column name="img">5,295</column>
+            <column name="group">Green</column>
+            <column name="summary">The best partner’s appearance.  </column>
+            <column name="message">Operating as a team rather than by yourself will bring you more luck. Every member should contribute what he/she is good at in a give-and-take fashion. Abundant personal connections will become your fortune. </column>
+            <column name="warning">“Thanks” is a beautiful word which should be cherished. There is a chance that you will come across someone who can talk sincerely.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">23</column>
+            <column name="name">Mirror</column>
+            <column name="img">74,295</column>
+            <column name="group">Purple</column>
+            <column name="summary">A time in which you stare deeply at yourself. </column>
+            <column name="message">Through the behavior of others, your merit and weak point can be found. It is often that the flaw of another person, especially when upset, will cause you to reflect upon yourself. 
+</column>
+            <column name="warning">Once again, become modest and reflect on your actions. Renew yourself at once if you remember something you regret. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">24</column>
+            <column name="name">Storm</column>
+            <column name="img">143,295</column>
+            <column name="group">Red</column>
+            <column name="summary">Intense emotions. Frustration being reduced. Too much desires to fulfil. </column>
+            <column name="message">Suppressed emotions and fears will come bursting to the surface. You may encounter severe problems. To improve your situation, you need to stop being pessimistic and be more assertive of your opinions. 
+</column>
+            <column name="warning">If you stay quiet, your charm will be reduced by half. Be brave, express yourself.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">25</column>
+            <column name="name">Cloud</column>
+            <column name="img">212,295</column>
+            <column name="group">Red</column>
+            <column name="summary">Choose your decisions carefully. Judge firmly and impartially</column>
+            <column name="message">Your ability to make decisions wisely is questioned. Relax and open your heart before judging a situation. If you make the best decision, your heart will be at ease.
+
+You need to have strong judgement. Relax and open your inner self before you judge. If you make the best decision, you will be able to set your mind at rest. </column>
+            <column name="warning">Your heart determines whether your luck will rise or fall. Happy and optimistic people attract other people, and good luck is sure to follow.
+
+Your heart determines your luck. People who are happy and optimistic will attract the attention and presence of other people, and thus, good luck will follow. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">26</column>
+            <column name="name">Rain</column>
+            <column name="img">281,295</column>
+            <column name="group">Red</column>
+            <column name="summary">Finally, things turn for the better. </column>
+            <column name="message">Things that had happened appear to be misfortune, but it is actually blessing in disguise - these 'misfortunes' will train you and enhance your development. Don’t be pessimistic. 
+</column>
+            <column name="warning">Painful experiences are only temporary. Relax and enjoy life.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">27</column>
+            <column name="name">Bubbles</column>
+            <column name="img">350,295</column>
+            <column name="group">Purple</column>
+            <column name="summary">Purification of emotions. When you break away from a vicious cycle. </column>
+            <column name="message">Worries and problems can be beautifully cleaned. A solution will gradually rise if you can work with an obedient feeling without showing off. 
+</column>
+            <column name="warning">A person who will support you appears, but it is bad to rely on only one person. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">28</column>
+            <column name="name">Sweet</column>
+            <column name="img">419,295</column>
+            <column name="group">Green</column>
+            <column name="summary">New Love. Popularity. Appearance of dependent mind.</column>
+            <column name="message">A special person that softens your heart just by being near you. Your work evaluation seems to rise quickly if you use your cheerfulness to the best of your ability. Your love life can be kept at a stable state for a while. </column>
+            <column name="warning">It is good to value communication with a friend, but watch out because you tend to sometimes depend on it a bit too much.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">29</column>
+            <column name="name">Power</column>
+            <column name="img">488,295</column>
+            <column name="group">Green</column>
+            <column name="summary">A wish fulfilled. Development. </column>
+            <column name="message">Your curiosity and diligence will become combined, and not only will your wish come true, but you will also obtain a higher position. Hereafter, aspects concerning work and love are enhanced more and more. 
+</column>
+            <column name="warning">A good state will continue as long as you don’t treat anyone poorly or become arrogant. Kindness and modesty are necessary during this time.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">30</column>
+            <column name="name">Arrow</column>
+            <column name="img">557,295</column>
+            <column name="group">Purple</column>
+            <column name="summary">A surge of energy. Aggressiveness. </column>
+            <column name="message">Energy that can charge towards the goal. Achieving your goals and desires in the shortest amount of time is done by moving and acting more positively than usual. </column>
+            <column name="warning">It is important to set a goal. Unnecessary trouble can be created when you are too greedy, so take care. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">31</column>
+            <column name="name">Shot</column>
+            <column name="img">626,295</column>
+            <column name="group">Blue</column>
+            <column name="summary">Focus on the goal. </column>
+            <column name="message">If you become greedy, you will fail. Ascertain why the goal is necessary. It is easy to become aggressive, but scolding yourself when you do will bring progress. </column>
+            <column name="warning">You might hurt the other party, even though you didn't mean any harm. If you notice this occurring, humbly apologize.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">32</column>
+            <column name="name">Song</column>
+            <column name="img">695,295</column>
+            <column name="group">Green</column>
+            <column name="summary">Joy, harmony. The energy of healing.</column>
+            <column name="message">It becomes possible to express what you want to convey freely when you learn to respect the opinion of the other party. Plan something new with your friend–it would be good for you to go on a trip.</column>
+            <column name="warning">Even if you intend to find happiness on your own, it will not be easy. Everyone should share their happiness with each other.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">33</column>
+            <column name="name">Voice</column>
+            <column name="img">5,441</column>
+            <column name="group">Green</column>
+            <column name="summary">I want to make friends; relationships properly resulting in feelings.</column>
+            <column name="message">You seem fatigued due to neighborliness. Yet, do your true feelings take on the opposite meaning during communication? First, call out to the person with “Good morning” or “Good afternoon”. </column>
+            <column name="warning">Your luck will abate if you are not able to greet your friend correctly. Bright greetings are the key to good luck.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">34</column>
+            <column name="name">Sleep</column>
+            <column name="img">74,441</column>
+            <column name="group">Blue</column>
+            <column name="summary">Rest. A calm state of mind. </column>
+            <column name="message">You are ordinary, but stable without a lot of trouble or fights. Spend every day in an honest, sincere attitude. If you get stuck in a couple of ruts, take a carefree hike--it will bring good luck.</column>
+            <column name="warning">Glib(insecure and insincere) talk will lead to a pitfall. Be careful not to cross a dangerous bridge. (Metaphorically speaking.) </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">35</column>
+            <column name="name">Glow</column>
+            <column name="img">143,441</column>
+            <column name="group">Green</column>
+            <column name="summary">An omen of getting lucky.</column>
+            <column name="message">Lucky fortune approaches. All hesitation is lost, and you will naturally know what you have to do. The improtant thing is to prepare really well for it.</column>
+            <column name="warning">Make a solid foundation for learning. Good luck will follow if you participate in voluntary activities. You have to have a foundation before making any plans. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">36</column>
+            <column name="name">Freeze</column>
+            <column name="img">212,441</column>
+            <column name="group">Blue</column>
+            <column name="summary">Establishment of basic power. It's ok to go at your own pace. </column>
+            <column name="message">There are also seasons in life. A time of growth would be like spring, and winter would be a time of gathering strength. Right now seems to be your charging period of winter. Do not spread yourself out too thin, just settle down slowly and work on things. </column>
+            <column name="warning">You must backpedal a bit in order to begin something new. In order to develop basic power, the first priority is to continuously investigate and train. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">37</column>
+            <column name="name">Thunder</column>
+            <column name="img">281,441</column>
+            <column name="group">Red</column>
+            <column name="summary">Good luck will come your way if you don’t lose yourself. </column>
+            <column name="message">You are being tested to see if you can control your explosive and intense emotions. You are able to express your personality as you keep generating great ideas. </column>
+            <column name="warning">Actions based upon rationality and courage will attract supporters, but selfish desires and behaviors will attract enemies.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">38</column>
+            <column name="name">Change</column>
+            <column name="img">350,441</column>
+            <column name="group">Blue</column>
+            <column name="summary">Change of heart. Waste.  </column>
+            <column name="message">Lack of concentration. You are envious of others and view things and goals in this negative way of thinking. This disturbing mood makes you do useless shopping.</column>
+            <column name="warning">A change for oneself will result in refreshment. It would be good if you tried playing sports or redecorating your room. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">39</column>
+            <column name="name">Dash</column>
+            <column name="img">419,441</column>
+            <column name="group">Blue</column>
+            <column name="summary">The instantaneous power of victory in your hand. An internal fight with yourself.</column>
+            <column name="message">The goal is just ahead. Spiritual strength is tried as a result of the internal fight with yourself. Keep running as fast as you can, even if it is a little painful. Afterwards, happiness awaits.</column>
+            <column name="warning">You'll go back to the starting point if you give up now. Precious natural luck fades away when suffering heavy losses. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">40</column>
+            <column name="name">Fly</column>
+            <column name="img">488,441</column>
+            <column name="group">Blue</column>
+            <column name="summary">A challenge to leap, a chance. </column>
+            <column name="message">Development of human relations. Your fortune will be strengthened as well, and all progresses smoothly. Taking the challenge of qualification examinations for auditions is recommended too. Keep a carefree action in mind, brightly, without withering. </column>
+            <column name="warning">Confidence and the economic fortune can be remarkably fostered by accomplishing work and favors when a friend asks for them. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">41</column>
+            <column name="name">Jump</column>
+            <column name="img">557,441</column>
+            <column name="group">Blue</column>
+            <column name="summary">Loss of ability. The best condition.</column>
+            <column name="message">Original power can be demonstrated to your heart's content. Human charm is like a power-up. You will become busy both officially and privately, but will still be able to make enough time for adequate sleep.</column>
+            <column name="warning">Tasks at work may be demanded that are above your current ability, leading to confusion, but you can ride it out using wisdom and experience.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">42</column>
+            <column name="name">Sword</column>
+            <column name="img">626,441</column>
+            <column name="group">Purple</column>
+            <column name="summary">Quest for truth. Compensation. A destructive power, sometimes.</column>
+            <column name="message">Symbol of truth and power. When you can make progress with something just as 
+desired. If what you say is true, the highest reward will be obtained. If what I have sown is truth, the highest harvest will be obtained.</column>
+            <column name="warning">However, hurting someone and every other wicked scheme can never utilize power.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">43</column>
+            <column name="name">Shield</column>
+            <column name="img">695,441</column>
+            <column name="group">Purple</column>
+            <column name="summary">Protection. A defensive measure to maintain harmony. </column>
+            <column name="message">Even if a crisis is approaching, you have many people firmly defending you. You can obtain greater power in exchange for love and harmony in particular. </column>
+            <column name="warning">Don’t forget the feeling of gratitude. When friends are in trouble do not hesitate to reach out to them.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">44</column>
+            <column name="name">Wave</column>
+            <column name="img">5,587</column>
+            <column name="group">Red</column>
+            <column name="summary">A flexible attitude/gentleness will bring good fortune.  </column>
+            <column name="message">Although you have your ups and downs, but eventually, you will still be able to move forward. In the past, you may have some friction with other people. However, as long as you accept the other party, both of you can be good friends.  If you are looking for an advisor to help fix a soured interpersonal relationship, turn to the magnanimous 
+ocean. 
+</column>
+            <column name="warning">Someone may make an unexpected love confession. In this situation, even if you don’t like this person, don’t reject him/her.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">45</column>
+            <column name="name">Illusion</column>
+            <column name="img">74,587</column>
+            <column name="group">Green</column>
+            <column name="summary">The desire to escape from reality.</column>
+            <column name="message">You have a tendency to only notice changes on the immediate surface of things and to 
+ignore/escape from reality. Even if the environment of your life and work change, don’t forget that everyone has the power to adapt.</column>
+            <column name="warning">Instead of pursuing perfection, try to relax. Things might turn out a lot more easier than you think if you do that. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">46</column>
+            <column name="name">Maze</column>
+            <column name="img">143,587</column>
+            <column name="group">Green</column>
+            <column name="summary">Losing confidence. Confusion.</column>
+            <column name="message">If you can't make it to a scheduled event, and there's no time to arrange it at a different time, take a short little break. Think about the following: Are you stubborn? Do you consider the other party's feelings? Are you too timid?</column>
+            <column name="warning">Draw an image of the achievement that you desire. It is also important to listen to other people's advice.</column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">47</column>
+            <column name="name">Loop</column>
+            <column name="img">212,587</column>
+            <column name="group">Purple</column>
+            <column name="summary">Connection. Chance to step-up.</column>
+            <column name="message">If there are sympathizing, gentle feelings, a lot of people and things begin to connect. Linked by a deep friendship, greater aid will likely be acquirable. 
+</column>
+            <column name="warning">You will go round and round in circles if you can't develop any self-satisfaction. Bright, open feelings are important. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">48</column>
+            <column name="name">Create</column>
+            <column name="img">281,587</column>
+            <column name="group">Red</column>
+            <column name="summary">Full of affection. The blooming of passion.</column>
+            <column name="message">When you express your thoughts and emotions, you feel at ease. You will experience increased creativity in the fields of art and music. Inspiration and wonderful ideas will come as a result of focusing in these two fields. 
+
+Express your opinion and affection. Stay close to art and music, as these can cause you to be more creative; you may even get some great ideas as a result. </column>
+            <column name="warning">Don’t allow yourself to be restricted by traditional concepts or rules. Follow your intuition and act accordingly—the possibility of unexpected discoveries or encounters will be high.
+
+Don't get tied down by traditional rules and ideas, and instead act according to your instincts; it may just bring you unexpected discoveries or meetings(with someone). </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">49</column>
+            <column name="name">Float</column>
+            <column name="img">350,587</column>
+            <column name="group">Blue</column>
+            <column name="summary">Liberation from restraint. Freedom.  </column>
+            <column name="message">If you make a steady effort, you will be freed from all pressures. When you don't make a steady effort, it is a sign of pending troubles. Be careful to pay attention to personal relationships, including romantic ones. 
+</column>
+            <column name="warning">When it comes to decisions concerning financial problems and work, you should follow an elder's advice* instead of making an arbitrary decision. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">50</column>
+            <column name="name">Lock</column>
+            <column name="img">419,587</column>
+            <column name="group">Purple</column>
+            <column name="summary">Intelligence. Inner awareness of the truth.</column>
+            <column name="message">The door of truth can be opened and shut. I notice my own heart and can know the secret of another. However, it would be better to leave if alone for now.</column>
+            <column name="warning">A pleasant chat will lose trust, if it goes on too long. Be careful, because it is difficult to regain trust that is lost. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">51</column>
+            <column name="name">Move</column>
+            <column name="img">488,587</column>
+            <column name="group">Blue</column>
+            <column name="summary">Be careful about fidgety actions and remarks. </column>
+            <column name="message">Though it's not bad, your natural fortune is a bit off, timing-wise. The cause seems to be an impromptu remark and / or a whimsical action. Don't become a person who does nothing but overexaggerate. </column>
+            <column name="warning">Keep your promises. Communicate to the best of your ability. It's easy to become influenced by feelings, so think before you speak. </column>
+        </table>
+        <table name="sakura_cards">
+            <column name="id">52</column>
+            <column name="name">Libra</column>
+            <column name="img">557,587</column>
+            <column name="group">Purple</column>
+            <column name="summary">Life, action, and adjusting the balance of ideas. </column>
+            <column name="message">Using calm, fair judgment, it is possible to start choosing humble decisions. In addition, the matter that caused a loss in balance will return to the best state.</column>
+            <column name="warning">However, the best state cannot be obtained if you compare lies to the past. If you reflect, you can gradually restore your balance. </column>
+        </table>
+    </database>
+</pma_xml_export>
