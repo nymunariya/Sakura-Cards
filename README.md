@@ -3,3 +3,14 @@
 <p>Clow &amp; Sakura card pictures ripped from "Card Captor Sakura: Sakura Card-hen Sakura Card to Tomodachi (GBA)" by Nightmare.</p>
 <img src="daily_sakura.png" />
 <p>Copyleft Nymunariya | Cards ripped by Nightmare</p>
+
+
+Cards overview page:
+<img src="Screenshot_Cards.png" />
+
+Shuffling page:
+<img src="Screenshot_Shuffle.png" />
+
+Reading helper:
+<img src="Screenshot_General1.png" />
+<img src="Screenshot_General2.png" />
